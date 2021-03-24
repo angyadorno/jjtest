@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Front-end Juke Box for feed.m
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a react project that aims to create a front-end Juke Box for feed.m music feed as a part of Jijo Challenge.
 
 ## Available Scripts
 
@@ -39,32 +39,25 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Dependencies in this project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Material-ui
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+// with npm
+npm install @material-ui/core
 
-### Code Splitting
+// with yarn
+yarn add @material-ui/core
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Redux
 
-### Analyzing the Bundle Size
+// with npm
+npm install @reduxjs/toolkit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+// with yarn
+yarn add @reduxjs/toolkit
 
-### Making a Progressive Web App
+### Feed Media SDK for Javascript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+// with npm
+npm install feed-media-audio-player
