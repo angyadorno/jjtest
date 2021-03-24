@@ -1,6 +1,6 @@
 import React from 'react';
 import {ThemeProvider} from '@material-ui/core';
-import  JukeBox  from './pages/jukeNox.js'; 
+import  Player  from './main/Player'; 
 import { useTheme } from '@material-ui/core/styles';
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
      
-        <JukeBox/>
+        <Player/>
      
     </ThemeProvider>
   );
